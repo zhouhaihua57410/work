@@ -1,0 +1,51 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color:#eee;
+}
+
+#form1 {
+}
+
+#header{
+    border:1px solid red;
+    height: 52px;
+    background-color:#d02046;
+    font-family: "Microsoft YaHei";
+}
+
+#header a{
+    color:#fff;
+    font-size:14px;
+    cursor:pointer;
+    text-decoration: none;
+}
+#header div{
+    margin-top:13px;
+    color:#fff;
+    font-size:14px;
+}
+#div1{
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#fff;
+    box-shadow: 2px 2px 1px #ccc;
+
+    width: 400px;
+    height: 250px;
+}
+#index_footer{
+    border-top:1px solid #bbb;
+    height: 35px;
+    line-height: 35px;
+    background-color: #eee;
+    text-align: center;
+    color:#333;
+    font-size:12px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}

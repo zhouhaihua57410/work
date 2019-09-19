@@ -1,0 +1,85 @@
+ul {
+    list-style: none;
+}
+
+.split {
+    clear: left;
+}
+
+#productList {
+    padding-left: 0px;
+}
+
+.product {
+    width: 240px;
+    height: 300px;
+    float: left;
+    margin: 10px 40px;
+    /*background-color:#eee;*/
+    box-shadow: 2px 2px 1px #eee;
+}
+
+.content {
+    /*border: 2px solid blue;*/
+    margin: 3% 5%;
+    background-color:#fff;
+    padding-top:10px;
+    padding-left: 5px;
+}
+
+.img{
+    height: 240px;
+}
+.product img {
+    height: 100%;
+    width: 100%;
+}
+
+.product_name{
+    padding:5px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei'";
+}
+
+.flag {
+    /*border: 1px solid #00FF00;*/
+    position: relative;
+    width:50px;
+    background: transparent;
+    top: -336px;
+    left:-4px;
+    transform: rotate(-45deg);
+    font-size: 12px;
+}
+.price{
+    margin-left:5px;
+    font-size: 19px;
+    color:#d02046;
+    font-weight: bold;
+}
+.unit{
+    font-size:14px;
+    color:gray;
+}
+
+.triangle{
+    position: relative;
+    top:-296px;
+    width: 0px;
+    height: 0px;
+    border-top: 45px solid #ccc;
+    border-right: 45px solid transparent;
+}
+#index_footer{
+    border-top:1px solid #bbb;
+    height: 35px;
+    line-height: 35px;
+    background-color: #eee;
+    text-align: center;
+    color:#333;
+    font-size:12px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
